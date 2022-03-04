@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.body-class {
+  @apply font-poppins text-description;
+} 
+p{
+  color: rgb(12 12 12 / 60%) !important;
+}
+a, button{
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+h1, h2, h4, h5, h6, p, span, a{
+  @apply font-poppins;
+}
+.section_bg{
+  background-color: #FBFBFB;
+}
+img{
+  backface-visibility: hidden;
+}
+
+.btn_yellow_stock {
+  @apply tracking-wider rounded-xl inline-flex text-yellow-500 bg-transparent border-1 border-yellow-500 py-2 px-6 focus:outline-none hover:bg-yellow-600;
+}
+.btn_yellow {
+  @apply tracking-wider rounded-xl inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600;
+}
+.btn_green {
+  @apply tracking-wider bg-secondary rounded-xl inline-flex text-white font-bold tracking-wider border-0 py-4 px-8 focus:outline-none hover:bg-primary;
+}
+.btn_green_stock {
+  @apply tracking-wider bg-transparent rounded-xl inline-flex text-secondary font-bold tracking-wider border-1 border-secondary py-4 px-8 focus:outline-none hover:bg-secondary hover:text-white;
+}
+.btn_grey_stock {
+  @apply text-center justify-center tracking-wider bg-transparent rounded-xl inline-flex text-white font-bold tracking-wider border-1 py-3 px-8 focus:outline-none hover:bg-secondary hover:text-white;
+  border-color: #FFC75F;
+  min-width: 238px;
+}
+.btn_grey_stock:hover {
+  background-color: #FFC75F;
+}
+.eo_section_title .title{
+  @apply text-4xl xl:text-5xl text-title leading-title font-normal mb-5;
+}
+.eo_section_title span{
+  @apply font-bold;
+}
+.eo_section_title .description{
+  @apply text-xl text-title font-normal;
+  line-height: 32px;
+}
+br{
+  @apply hidden xl:block;
+}
+.snippets_img{
+  background-image: url('./images/snippets.png');
+  background-repeat: no-repeat;
+}
+.tel_icon{
+  background-position: -270px -5px;
+}
+.search_icon{
+  background-position: -310px -14px;
+  height: 18px;
+  width: 18px;
+}
+.search-white-icon{
+  background-position: -336px -7px;
+  height: 30px;
+  width: 30px;
+}
+.dropdowm_icon{
+  background-position: -372px -9px;
+  height: 23px;
+  width: 23px;
+}
